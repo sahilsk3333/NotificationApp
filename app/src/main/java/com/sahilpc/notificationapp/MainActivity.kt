@@ -1,22 +1,19 @@
 package com.sahilpc.notificationapp
 
 import android.os.Bundle
-import android.provider.UserDictionary.Words.APP_ID
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.sahilpc.notificationapp.ui.data.common.Constants
-import com.sahilpc.notificationapp.ui.data.remote.OneSignalServiceImpl
-import com.sahilpc.notificationapp.ui.data.remote.dto.NotificationData
-import com.sahilpc.notificationapp.ui.data.remote.dto.NotificationMessage
+import com.sahilpc.notificationapp.data.common.Constants
+import com.sahilpc.notificationapp.data.remote.OneSignalServiceImpl
+import com.sahilpc.notificationapp.data.remote.dto.NotificationData
+import com.sahilpc.notificationapp.data.remote.dto.NotificationMessage
 import com.sahilpc.notificationapp.ui.theme.NotificationAppTheme
 import kotlinx.coroutines.launch
 

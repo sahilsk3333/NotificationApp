@@ -1,4 +1,4 @@
-package com.sahilpc.notificationapp.ui.data.remote.dto
+package com.sahilpc.notificationapp.data.remote.dto
 
 import kotlinx.serialization.Serializable
 

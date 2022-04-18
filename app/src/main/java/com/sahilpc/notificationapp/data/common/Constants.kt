@@ -1,4 +1,4 @@
-package com.sahilpc.notificationapp.ui.data.common
+package com.sahilpc.notificationapp.data.common
 
 object Constants {
     const val NOTIFICATIONS = "https://onesignal.com/api/v1/notifications"

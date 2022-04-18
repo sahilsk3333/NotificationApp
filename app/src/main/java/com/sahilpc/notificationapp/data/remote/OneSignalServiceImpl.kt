@@ -1,9 +1,8 @@
-package com.sahilpc.notificationapp.ui.data.remote
+package com.sahilpc.notificationapp.data.remote
 
-import android.app.Notification
-import com.sahilpc.notificationapp.ui.data.common.Constants.API_KEY
-import com.sahilpc.notificationapp.ui.data.common.Constants.NOTIFICATIONS
-import com.sahilpc.notificationapp.ui.data.remote.dto.NotificationData
+import com.sahilpc.notificationapp.data.common.Constants.API_KEY
+import com.sahilpc.notificationapp.data.common.Constants.NOTIFICATIONS
+import com.sahilpc.notificationapp.data.remote.dto.NotificationData
 import io.ktor.client.*
 import io.ktor.client.engine.cio.*
 import io.ktor.client.features.json.*
